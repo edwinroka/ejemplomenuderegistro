@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,100&display=swap');
 
+body {
+    background-color: #161717;
+    color: white;
+}
+
 .container {
     margin: auto;
     display: flex;
@@ -17,7 +22,7 @@
 }
 
 .google-btn {
-    background-color: lightskyblue;
+    background-color: #212121;
     border: none;
     border-radius: 5px;
     height: 40px;
@@ -52,16 +57,40 @@
 }
 
 .twitter-btn {
-    color: white;
-    background-color: rgb(245, 206, 206);
+    background-color: #212121;
     border: none;
-    width: 40px;
     border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
     cursor: pointer;
 }
 
+
+.twitter-btn picture {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-btn picture img {
+    width: 75%;
+}
+
+.twitter-btn span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+
 .twitter-btn:hover {
-    background-color: rgb(239, 32, 32);
+    background-color: #454045;
 }
 
 .separator {
@@ -105,7 +134,8 @@ label span {
 
 label input {
     width: 100%;
-    background-color: #f3f3f4;
+    background-color: #212121;
+    color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -117,7 +147,7 @@ label input {
 
 .section-inputs label input {
     width: 80%;
-    background-color: #f3f3f4;
+    background-color: #212121;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -126,7 +156,7 @@ label input {
 }
 
 label input:hover {
-    background-color: white;
+    background-color: #454045;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px #eb58ff4f;
 }
